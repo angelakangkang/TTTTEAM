@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.asus.demo.messageActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/royalblue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/messagebackward"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backward1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginLeft="115dp"
+            android:layout_gravity="center"
+            android:textColor="@color/whitesmoke"
+            android:text="留言板"
+            />
+    </LinearLayout>
+    <View android:layout_height="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+
+    <ListView
+        android:divider="@drawable/list_line"
+        android:id="@+id/messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.asus.android1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_corner"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:weightSum="1">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TEAM"
+            android:textSize="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:hint="NAME"
+            android:textSize="23dp"
+            android:textColor="@color/background1"
+            android:textColorHint="@color/background1"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:hint="PASSWORD"
+            android:textSize="23dp"
+            android:textColor="@color/background1"
+            android:textColorHint="@color/background1"
+            android:layout_gravity="center_horizontal"
+            android:password="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp">
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="USER"
+                    android:id="@+id/radioButton"
+                    android:layout_gravity="right"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="45dp"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADMIN"
+                    android:id="@+id/radioButton2"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="45dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/LOGIN"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_cornerr"
+            android:textColor="@color/background"
+            android:layout_weight="0.08"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FORGET PASSWORD"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="3dp"
+                android:textSize="16dp"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:layout_marginLeft="3dp"
+                android:clickable="true"/>
+            <!--<TextView-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="REGISTER"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="16dp"-->
+                <!--android:layout_marginLeft="3dp"-->
+                <!--android:clickable="true"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="MOUMOU COMPANY"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="16dp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="-20dp" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

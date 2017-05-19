@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/royalblue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <ImageView
+        android:id="@+id/usershezhibackward"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backward1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="120dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="设置"
+        />
+</LinearLayout>
+    <View android:layout_height="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/lightslategray"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="账号管理"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <!--<TextView-->
+            <!--android:textColor="@color/lightslategray"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="账号与安全"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp" />-->
+        </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+        android:textColor="@color/lightslategray"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="账号与安全"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <View android:layout_height="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="消息设置"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="隐私设置"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+    <LinearLayout
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/lightslategray"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="通用设置"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:src="@drawable/jiantou"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+</LinearLayout>
+
+    <View android:layout_height="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="客服中心"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="关于微博"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <View android:layout_height="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="夜间模式"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+<com.example.asus.demo.SlipButton
+    android:layout_marginBottom="8dip"
+    android:layout_marginTop="15dip"
+    android:layout_gravity="center"
+    android:id="@+id/on"
+   android:layout_marginRight="5dp"
+    android:layout_width="60dp"
+    android:layout_height="match_parent" />
+        <!--<Switch-->
+            <!--android:background="@color/white"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:id="@+id/switchoff"-->
+             <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:src="@drawable/kaiguan"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="50dp" />-->
+
+    </LinearLayout>
+    <View android:layout_height="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="清理缓存"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <!--<ImageView-->
+            <!--android:src="@drawable/jiantou"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="50dp" />-->
+
+    </LinearLayout>
+    <View android:layout_height="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+
+    <LinearLayout
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <!--<TextView-->
+        <!--android:id="@+id/exit"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textColor="@color/red"-->
+        <!--android:gravity="center_vertical|center"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="退出TEAM"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp" />-->
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="center"
+            android:background="@color/whitesmoke"
+            android:textColor="@color/red"
+            android:id="@+id/exitt"
+            android:text="退出TEAM"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    <!--<ImageView-->
+        <!--android:src="@drawable/jiantou"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp" />-->
+
+</LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/darkgray"/>
+
+
+</LinearLayout>

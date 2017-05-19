@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TEAM</string>
+    <string name="jianjie">个人简介：never say never</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="title_activity_system_news">SystemNewsActivity</string>
+    <string name="title_activity_message">messageActivity</string>
+    <string name="title_activity_fabunew">fabunewActivity</string>
+</resources>

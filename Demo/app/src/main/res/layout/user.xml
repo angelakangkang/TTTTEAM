@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/o5beijing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/back"/>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" >
+
+        <ImageView
+            android:src="@drawable/touxiang"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+       <TextView
+         android:gravity="center_vertical"
+         android:textSize="20dp"
+         android:textColor="@color/royalblue"
+         android:text="@string/jianjie"
+         android:layout_width="match_parent"
+         android:layout_height="120dp" />
+
+    </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/red"/>
+    <LinearLayout
+   android:layout_marginLeft="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:textColor="@color/lightslategray"
+        android:gravity="center_vertical"
+        android:text="个人账号信息"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+   </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/gray"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:text="我的好友"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/gray"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:text="我的相册"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/gray"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:text="草稿箱"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="@color/gray"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/zhanghushezhi"
+            android:textColor="@color/lightslategray"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

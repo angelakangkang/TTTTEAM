@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkgray1"
+    tools:context="com.example.asus.demo.TeamActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/royalblue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/teambackward"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backward1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="T圈"
+            />
+    </LinearLayout>
+    <include
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    layout="@layout/searchbar"
+    android:layout_width="300dp"
+    android:layout_height="40dp">
+    </include>
+   <LinearLayout
+       android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="30dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/shutiao"
+            android:layout_width="5dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/lightslategray"
+            android:text="话题来源：ACM圈"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="@color/darkgray"
+            android:text="关于举办2017下半年的浙江省高校ACM大赛的相关通知"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
